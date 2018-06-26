@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var queryString = window.location.search.replace("?","");
+      var params = parseParams(queryString);
+      //this function parses url parameters into an object
+      function parseParams(queryString){
+        var params = {};
+        var parts = queryString.split("&");
+        for(var i=0;i<parts.length;i++){
+          var keyValue = parts[i].split("=");
+          params[keyValue[0]] = keyValue[1]
+        }
+        return params;
+      }
+      var server = params.returnUrl;
+      window.open(server, '_self');
+    </script>
+  </body>
+</html>

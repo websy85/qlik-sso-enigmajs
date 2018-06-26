@@ -1,0 +1,27 @@
+{
+  "name": "qlik-sense-nodejs-basic-sso",
+  "version": "1.0.0",
+  "description": "An example of using NodeJS to configure a simple SSO example for custom authentication with Qlik Sense",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/websy85/qlik-sense-nodejs-basic-sso.git"
+  },
+  "author": "websy85",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/websy85/qlik-sense-nodejs-basic-sso/issues"
+  },
+  "homepage": "https://github.com/websy85/qlik-sense-nodejs-basic-sso#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "enigma.js": "^2.2.1",
+    "express": "^4.16.2",
+    "jquery": "^3.3.1"
+  }
+}
