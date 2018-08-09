@@ -1,4 +1,4 @@
-# qlik-sso-enigmajs
+# Qlik SSO Example with Enigma.js
 An example of using Node.JS to configure a simple SSO example for custom authentication with Qlik Sense and Enigma.JS
 
 The example uses the Node.js and Express to run a simple web server. For more information on the 'Express' module please refer to the Express documentation - http://expressjs.com/
